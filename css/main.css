@@ -1,0 +1,102 @@
+@charset "utf-8";
+*{
+    text-decoration: none;
+    list-style: none;
+}
+.wrap{
+    width: 100%;
+    margin: auto;
+}
+.header{
+    width: 1200px;
+    margin: auto;
+    background-color: antiquewhite;
+}
+
+.top{
+    width: 100%;
+    height: 65px;
+    margin: auto;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end
+}
+.login{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    text-align: right;
+}
+.login li{
+    width: calc(100% / 3);
+}
+.login a{
+    text-decoration: none;
+    font-size: 14px; 
+    color:#212224;
+    font-weight: 600;
+}
+.search{
+    width:100%;
+    height: 100px;
+    /* background-color: blueviolet; */
+    margin: auto;
+    display: flex;
+}
+.search a{
+    width:20%;
+    height: 100px;
+    background: url("../images/onet-logo.PNG");
+}
+.search a img{
+    width: 100%;
+}
+.search form{
+    width: 55%;
+    background-color: #fff;
+    height: 50%;
+    margin:25px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid grey;
+}
+.search-bar{
+    width:55%;
+    padding-left:25px;
+    border: none;
+}
+
+.search-bar button{
+    padding-right:60px;
+    width: 3%;
+    background-color: #fff;
+    border-radius: 0px 30px 30px 0;
+}
+.category{
+    width:100%;
+    background-color: aqua;
+}
+.category ul{
+    width:100%;
+    display: flex;
+    padding: 20px; 
+    justify-content: center;
+}
+.category ul li{
+    width: 7%;
+    height: 5px;
+    text-align: center;
+    height: 40%;
+    padding: 0 15px;
+    border-right: 1px solid#333;
+}
+.category ul li:last-child{
+    border: none;
+}
+.category ul li a{
+    font-size:16px;
+    text-decoration: none;
+    color: #333;
+}
