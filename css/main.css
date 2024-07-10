@@ -1,7 +1,12 @@
 @charset "utf-8";
+/* 폰트 가져오기 */
+@import url("../css/font.css");
 *{
     text-decoration: none;
     list-style: none;
+}
+body{
+    font-family: "Pretendard", sans-serif;
 }
 html,
 body {
@@ -54,7 +59,8 @@ body {
 .search a{
     width:20%;
     height: 100px;
-    background: url("../images/onet-logo.PNG");
+    background: url("../images/onet-logo.PNG") no-repeat;
+    background-size: center;
 }
 .search a img{
     width: 100%;
@@ -83,6 +89,7 @@ body {
 }
 .category{
     width:100%;
+    margin:30px 0;
     /* background-color: aqua; */
 }
 .category ul{
@@ -114,7 +121,8 @@ main{
 .swiper {
     width: 50%;
     height: 100%;
-    margin: 30px auto;
+    margin:auto;
+    padding : 30px 0;
 }
 
 .swiper-slide {
@@ -134,9 +142,10 @@ main{
 }
 .popular-cate{
     width: 100%;
-   max-width: 1200px;
+    max-width: 1200px;
     background-color: #fff;
-    margin: auto;
+    margin:auto;
+    padding-top: 50px;
 }
 .popular-cate h4{
     font-size: 22px;
@@ -209,7 +218,7 @@ main{
     width: 100%;
     background: linear-gradient(45deg, rgb(238, 121, 11), rgb(255, 238, 84));
     height: 210px;
-    margin-top:30px;
+    margin-top:100px;
 }
 .maching-inner{
     width:100%;
@@ -250,6 +259,7 @@ main{
     background-color: rgb(190, 190, 190);
     display: flex;
     flex-direction: column;
+    margin-bottom: 100px;
 }
 .text-box1{
     width: 100%;
@@ -260,7 +270,7 @@ main{
 }
 .text-box1 h1{
     font-size: 32px;
-    font-weight: 600;
+    font-weight: bolder;
     padding-bottom: 30px;
 }
 .text-box1 p{
@@ -269,18 +279,21 @@ main{
 }
 .text-box2{
     margin: auto;
-    height: 50%;
+    height: 40%;
     width: 100%; 
     max-width: 1200px;
     display: flex;
-    justify-content: space-around
+    justify-content: space-between;
+    padding: 0 20px;
 }
 .text-box2 li{
-    width: 25%;
+    width: 19%;
     background-color: #fff;
-    padding: 10px;
+    padding: 35px;
     border-radius: 10px;
     position: relative;
+    line-height: 23px;
+    box-shadow: 2px 2px 2px 2px rgb(177, 175, 175);
 }
 .text-box2 li:first-child::before{
     content: "1";
@@ -288,11 +301,11 @@ main{
     top:0;
     left:0;
     transform: translate(-50%,-50%);
-    padding: 10px 15px;
+    padding: 8px 15px;
     border-radius: 50%;
-    background-color: bisque;
+    background-color: rgb(248, 168, 70);
     background-size: 100px 100px;
-    font-weight: bold;
+    font-size: 18px;
 }
 .text-box2 li:nth-child(2):before{
     content: "2";
@@ -300,11 +313,11 @@ main{
     top:0;
     left:0;
     transform: translate(-50%,-50%);
-    padding: 10px 15px;
+    padding: 8px 15px;
     border-radius: 50%;
-    background-color: bisque;
+    background-color: rgb(248, 168, 70);
     background-size: 100px 100px;
-    font-weight: bold;
+    font-size: 18px;
 }
 .text-box2 li:last-child::before{
     content: "3";
@@ -312,9 +325,30 @@ main{
     top:0;
     left:0;
     transform: translate(-50%,-50%);
-    padding: 10px 15px;
+    padding: 8px 15px;
     border-radius: 50%;
-    background-color: bisque;
+    background-color: rgb(248, 168, 70);
     background-size: 100px 100px;
+    font-size: 18px;
+}
+.text-box2 h3{
     font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+.text-box2 p{
+    font-size: 16px;
+}
+.best-desiner{
+    width: 100%;
+    max-width: 1200px;
+    background-color: aquamarine;
+    margin: auto;
+}
+.best-title h1{
+    font-size: 22px;
+    font-weight: bold;
+}
+.best-title p{
+    font-size: 16px;
 }
