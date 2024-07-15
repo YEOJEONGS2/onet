@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="'ONE'T 웹사이트입니다." />
     <meta name="keywords" content="원트,'ONE'T" />
     <meta name="author" content="'ONE'T" />
@@ -16,242 +16,267 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/responsive.css">
     <script src="js/html5shiv.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
     <title>단 하나의 디자인, 'ONE'T</title>
-</head> 
-<body>
+  </head>
+  <body>
     <div class="wrap">
-        <header class="header">
-            <div class="top">
-                <ul class="login">
-                    <li><a href="#">디자이너등록</a></li>
-                    <li><a href="#">회원가입</a></li>
-                    <li><a href="#">로그인</a></li>
-                </ul>
+      <header class="header">
+        <div class="top">
+          <ul class="login">
+            <li><a href="#">디자이너등록</a></li>
+            <li><a href="#">회원가입</a></li>
+            <li><a href="#">로그인</a></li>
+          </ul>
+        </div>
+        <div class="search">
+          <a href="#"></a>
+          <form class="search-bar" method="get">
+            <input class="search-bar" type="txt" name="search-bar" placeholder="단,하나의 디자인 'ONE'T" />
+            <button class="search-bar" type="submit">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </form>
+        </div>
+        <div class="category">
+          <ul>
+            <li><a href="#">로고</a></li>
+            <li><a href="#">인쇄물</a></li>
+            <li><a href="#">웹-모바일</a></li>
+            <li><a href="#">마케팅</a></li>
+            <li><a href="#">그래픽</a></li>
+            <li><a href="#">캐릭터</a></li>
+            <li><a href="#">3D</a></li>
+            <li><a href="#">산업-건축</a></li>
+          </ul>
+        </div>
+      </header>
+      <main class="main">
+        <div class="middle-contents">
+          <!-- <div class="swiper slideBn">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a href="#"><img src="images/slide-banner3.png" /></a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#"><img src="images/slide-banner2.png" /></a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#"><img src="images/slide-banner1.png" /></a>
+              </div>
             </div>
-            <div class="search">
-                <a href="#"></a>
-                <form class="search-bar" method="get">
-                    <input class="search-bar" type="txt" name="search-bar" placeholder="단,하나의 디자인 'ONE'T">
-                    <button class="search-bar" type="submit">
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                    </button>
-                </form>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div> -->
+          <div class="popular-cate">
+            <h4>원트, 인기카테고리</h4>
+            <ul class="cate">
+              <li><a href="#">로고디자인</a></li>
+              <li><a href="#">마케팅</a></li>
+              <li><a href="#">웹 디자인</a></li>
+              <li><a href="#">모바일 디자인</a></li>
+              <li><a href="#">그래픽</a></li>
+            </ul>
+            <ul class="thumbnail">
+              <li>
+                <a href="#">
+                  <img src="images/th-4.jpg" alt="로고1" />
+                  <p>
+                    <strong>로고디자인 업계 1위! 업계 전문가 10년 경력</strong><br />
+                    1일 3분만 의뢰가능 / 최저가 / 작업시간 3시간 / 전문가 ...
+                  </p>
+                  <span>울프 디자인</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="images/th-1.jpg" alt="로고2" />
+                  <p>
+                    <strong>디자인 제작 리뷰 1등★로고디자인/로고제작</strong><br />
+                    명품브랜드 로고 제작 다수 경험/해외브랜드 로고 가능
+                  </p>
+                  <span>루이비콘</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="images/th-2.jpg" alt="로고3" />
+                  <p>
+                    <strong>원트 인증마스터/대기업 로고 다수 제작!</strong><br />
+                    제작 시간 1시간/제작 디자이너 多/리뷰 1000건 달성!
+                  </p>
+                  <span>페부시 컴퍼니</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="images/th-3.jpg" alt="로고4" />
+                  <p>
+                    <strong>원트 어워즈 수상/인정받은 프리미엄 디자인</strong><br />
+                    인증된 디자인 컴퍼니/의뢰 1만건 달성/당일 제작 가능
+                  </p>
+                  <span>로고 디자인 컴퍼니</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="maching-banner">
+          <div class="maching-inner">
+            <div class="maching-txt">
+              <p>디자이너를 찾기 어렵다면? <br /><strong>원하는 디자인물 자동매칭으로 쉽게 의뢰하기!</strong></p>
             </div>
-            <div class="category">
-                <ul>
-                        <li><a href="#">로고</a></li>
-                        <li><a href="#">인쇄물</a></li>
-                        <li><a href="#">웹-모바일</a></li>
-                        <li><a href="#">마케팅</a></li>
-                        <li><a href="#">그래픽</a></li>
-                        <li><a href="#">캐릭터</a></li>
-                        <li><a href="#">3D</a></li>
-                        <li><a href="#">산업-건축</a></li>
-                </ul>
+            <div class="machingBt">
+              <a href="#">
+                <span>매칭하러가기</span>
+                <i class="fa-solid fa-angle-right"></i>
+              </a>
             </div>
-            
-        </header>
-        <main class="main">
-            <div class="middle-contents">
-                <div class="swiper slideBn">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide"><a href="#"><img src="images/slide-banner3.png"></a></div>
-                        <div class="swiper-slide"><a href="#"><img src="images/slide-banner2.png"></a></div>
-                        <div class="swiper-slide"><a href="#"><img src="images/slide-banner1.png"></a></div>    
-                    </div>
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-pagination"></div>
-                </div>
-                <div class="popular-cate">
-                    <h4>원트, 인기카테고리</h4>
-                    <ul class="cate">
-                        <li><a href="#">로고디자인</a></li>
-                        <li><a href="#">마케팅</a></li>
-                        <li><a href="#">웹 디자인</a></li>
-                        <li><a href="#">모바일 디자인</a></li>
-                        <li><a href="#">그래픽</a></li>
-                    </ul>
-                    <ul class="thumbnail">
-                        <li>
-                        <a href="#">
-                            <img src="images/th-4.jpg" alt="로고1">
-                            <p><strong>로고디자인 업계 1위! 업계 전문가 10년 경력</strong><br>
-                            1일 3분만 의뢰가능 / 최저가 / 작업시간 3시간 / 전문가 ...</p>
-                            <span>울프 디자인</span>
-                        </a>
-                        </li>
-                        <li>
-                        <a href="#">
-                            <img src="images/th-1.jpg" alt="로고2">
-                            <p><strong>디자인 제작 리뷰 1등★로고디자인/로고제작</strong><br>
-                            명품브랜드 로고 제작 다수 경험/해외브랜드 로고 가능</p>
-                            <span>루이비콘</span>
-                        </a>
-                        </li>
-                        <li>
-                        <a href="#">
-                            <img src="images/th-2.jpg" alt="로고3">
-                            <p><strong>원트 인증마스터/대기업 로고 다수 제작!</strong><br>
-                            제작 시간 1시간/제작 디자이너 多/리뷰 1000건 달성!</p>
-                            <span>페부시 컴퍼니</span>
-                        </a>
-                        </li>
-                        <li>
-                        <a href="#">
-                            <img src="images/th-3.jpg" alt="로고4">
-                            <p><strong>원트 어워즈 수상/인정받은 프리미엄 디자인</strong><br>
-                            인증된 디자인 컴퍼니/의뢰 1만건 달성/당일 제작 가능</p>
-                            <span>로고 디자인 컴퍼니</span>
-                        </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="maching-banner">
-                <div class="maching-inner">
-                    <div class="maching-txt">
-                        <p>디자이너를 찾기 어렵다면?
-                        <br><strong>원하는 디자인물 자동매칭으로 쉽게 의뢰하기!</strong>
-                        </p>    
-                    </div>
-                    <div class="machingBt">
-                        <a href="#">
-                            <span>매칭하러가기</span>
-                            <i class="fa-solid fa-angle-right"></i>
-                        </a>
-                    </div>    
-                </div>
-            </div>
-            <div class="need-designer">
-                <div class="text-box1">
-                    <h1>내게 필요한 디자이너</h1>
-                    <p>누적 거래 550만건!<br>
-                    디자인 전문 카테고리와 6만여 개 서비스에서
-                    필요한 모든 디자이너를 만나보세요.
-                    </p>    
-                </div>
-                <ul class="text-box2">
-                    <li>
-                        <h3>빠른 커뮤니케이션</h3>
-                        <p>전문가와 실시간 대화로 <br>빠르게 문의하고 견적받을 수 있어요.</p>
-                    </li>
-                    <li>
-                        <h3>만족스러운 결과물</h3>
-                        <p>평균 만족도 99.9%<br> 많은 회원들이 만족하고 있어요.</p>
-                    </li>
-                    <li>
-                        <h3>원트 안전결제</h3>
-                        <p>에스크 결제 시스템으로<br> 소중한 돈을 안전하게 보호해드려요.</p>
-                    </li>
-                </ul>
-            </div>
-            <div class="best-desiner">
-                <div class="best-title">
-                    <h1>베스트 디자이너</h1>
-                    <p>카테고리에서 가장 많은 크레이트와 후기를 받은 인증된 디자이너예요</p>
-                </div>
-                <ul class="best-list">
-                    <li>
-                        <a href="#"><img src="images/alex--C0bUDte1-g-unsplash.jpg" alt="배너1"></a>
-                        <ul class="list-in">
-                            <li><b>[로고 이미지]여둥이네</b></li>
-                            <li><i class="fa-solid fa-heart" style="color: #ff7300;"></i><span>3,156</span>
-                                <i class="fa-solid fa-star" style="color: #FFD43B;"></i><span>(4.9)</span>
-                            </li>
-                            <li>30,000원 ~</li>
-                            <li>의뢰하기<a href="#"><i class="fa-solid fa-chevron-right"></i></a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#"><img src="images/frank-uyt-den-bogaard-U6LnP-FlFNI-unsplash.jpg" alt="배너1"></a>
-                        <ul class="list-in">
-                            <li><b>[웹·모바일 디자인]그린이네</b></li>
-                            <li><i class="fa-solid fa-heart" style="color: #ff7300;"></i><span>2,989</span>
-                                <i class="fa-solid fa-star" style="color: #FFD43B;"></i><span>(4.9)</span>
-                            </li>
-                            <li>150,000원 ~</li>
-                            <li>의뢰하기<a href="#"><i class="fa-solid fa-chevron-right"></i></a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#"><img src="images/lucas-lenzi-6QCZgqodrxI-unsplash.jpg" alt="배너1"></a>
-                        <ul class="list-in">
-                            <li><b>[그래픽·3D]아트디자인</b></li>
-                            <li><i class="fa-solid fa-heart" style="color: #ff7300;"></i><span>2,500</span>
-                                <i class="fa-solid fa-star" style="color: #FFD43B;"></i><span>(4.7)</span>
-                            </li>
-                            <li>200,000원~</li>
-                            <li>의뢰하기<a href="#"><i class="fa-solid fa-chevron-right"></i></a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </main>
-        <footer>
-            <div class="footer-bn">
-                <div class="bn-text">
-                    <h1>디자이너로 활동하시나요?
-                        <br>원트에서 새로운 고객을 만나보세요
-                    </h1>
-                <div class="sign-up">
-                    <a href="#">디자이너로 가입하기</a>
-                    </div>
-                </div>
-                <img src="images/banner-img.png" alt="이미지">
-            </div>
-            <div class="cs">
-                <div class="cs-center">
-                    <p>09:00 ~ 18:00 (점심시간 12:00 ~ 13:00)
-                    <br><b>주말, 공휴일 휴무</b>
-                    </p>
-                    <div class="center">
-                        <ul>
-                            <li>고객센터</li>
-                            <li>전문가센터</li>
-                        </ul>
-                        <ul>
-                            <li>
-                                <a href="#">123-4567</a>
-                                <br><a href="#">321-4567</a>
-                            </li>
-                        </ul>    
-                    </div>
-                </div>
-                <div class="info">
-                    <ul>원트정보
-                        <li>서비스 소개</li>
-                        <li>인재영입</li>
-                    </ul>
-                    <ul>지원
-                        <li>공지사항</li>
-                        <li>자주 묻는 질문</li>
-                        <li>약관 및 정책</li>
-                        <li>개인정보처리방침</li>
-                    </ul>
-                </div>
-                <div class="app-link">
-                    <ul>
-                        <li>
-                            <a href="#">
-                                <i class="fa-brands fa-google-play" style="color: #ff7605;"></i>                                Google play
-                            </a>        
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i class="fa-brands fa-apple" style="color: #ff7b00;"></i>                                App store
-                            </a>        
-                        </li>
-                    </ul>
-                </div>
-            </div>
+          </div>
+        </div>
+        <div class="need-designer">
+          <div class="text-box1">
+            <h1>내게 필요한 디자이너</h1>
+            <p>
+              누적 거래 550만건!<br />
+              디자인 전문 카테고리와 6만여 개 서비스에서 필요한 모든 디자이너를 만나보세요.
+            </p>
+          </div>
+          <ul class="text-box2">
+            <li>
+              <h3>빠른 커뮤니케이션</h3>
+              <p>전문가와 실시간 대화로 <br />빠르게 문의하고 견적받을 수 있어요.</p>
+            </li>
+            <li>
+              <h3>만족스러운 결과물</h3>
+              <p>
+                평균 만족도 99.9%<br />
+                많은 회원들이 만족하고 있어요.
+              </p>
+            </li>
+            <li>
+              <h3>원트 안전결제</h3>
+              <p>
+                에스크 결제 시스템으로<br />
+                소중한 돈을 안전하게 보호해드려요.
+              </p>
+            </li>
+          </ul>
+        </div>
+        <div class="best-desiner">
+          <div class="best-title">
+            <h1>베스트 디자이너</h1>
+            <p>카테고리에서 가장 많은 크레이트와 후기를 받은 인증된 디자이너예요</p>
+          </div>
+          <ul class="best-list">
+            <li>
+              <a href="#"><img src="images/alex--C0bUDte1-g-unsplash.jpg" alt="배너1" /></a>
+              <ul class="list-in">
+                <li><b>[로고 이미지]여둥이네</b></li>
+                <li><i class="fa-solid fa-heart" style="color: #ff7300"></i><span>3,156</span> <i class="fa-solid fa-star" style="color: #ffd43b"></i><span>(4.9)</span></li>
+                <li>30,000원 ~</li>
+                <li>
+                  의뢰하기<a href="#"><i class="fa-solid fa-chevron-right"></i></a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#"><img src="images/frank-uyt-den-bogaard-U6LnP-FlFNI-unsplash.jpg" alt="배너1" /></a>
+              <ul class="list-in">
+                <li><b>[웹·모바일 디자인]그린이네</b></li>
+                <li><i class="fa-solid fa-heart" style="color: #ff7300"></i><span>2,989</span> <i class="fa-solid fa-star" style="color: #ffd43b"></i><span>(4.9)</span></li>
+                <li>150,000원 ~</li>
+                <li>
+                  의뢰하기<a href="#"><i class="fa-solid fa-chevron-right"></i></a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#"><img src="images/lucas-lenzi-6QCZgqodrxI-unsplash.jpg" alt="배너1" /></a>
+              <ul class="list-in">
+                <li><b>[그래픽·3D]아트디자인</b></li>
+                <li><i class="fa-solid fa-heart" style="color: #ff7300"></i><span>2,500</span> <i class="fa-solid fa-star" style="color: #ffd43b"></i><span>(4.7)</span></li>
+                <li>200,000원~</li>
+                <li>
+                  의뢰하기<a href="#"><i class="fa-solid fa-chevron-right"></i></a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </main>
+      <footer>
+         <div class="footer-bn inner">
 
-        </footer>
+            <div class="bn-text">
+              <h1>디자이너로 활동하시나요? <br />원트에서 새로운 고객을 만나보세요</h1>
+              <div class="sign-up">
+                <a href="#">디자이너로 가입하기</a>
+              </div>
+            </div>
+            <img src="images/banner-img.png" alt="이미지" />
+          </div>
+          <div class="cs">
+            <div class="cs-center">
+              <p>09:00 ~ 18:00 (점심시간 12:00 ~ 13:00) <br /><b>주말, 공휴일 휴무</b></p>
+              <div class="center">
+                <ul>
+                  <li>고객센터</li>
+                  <li>전문가센터</li>
+                </ul>
+                <ul>
+                  <li>
+                    <a href="#">123-4567</a>
+                    <br /><a href="#">321-4567</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="info">
+              <ul>
+                원트정보
+                <li>서비스 소개</li>
+                <li>인재영입</li>
+              </ul>
+              <ul>
+                지원
+                <li>공지사항</li>
+                <li>자주 묻는 질문</li>
+                <li>약관 및 정책</li>
+                <li>개인정보처리방침</li>
+              </ul>
+            </div>
+            <div class="app-link">
+              <ul>
+                <li>
+                  <a href="#"> <i class="fa-brands fa-google-play" style="color: #ff7605"></i> Google play </a>
+                </li>
+                <li>
+                  <a href="#"> <i class="fa-brands fa-apple" style="color: #ff7b00"></i> App store </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="copyright">
+            <div class="company-info">
+              <p>(주)원트 | 대구광역시 중구 00로 123, 2층 | 대표 : 김여정 | 개인정보관리책임자 : 아무개 | 사업자등록번호 : 123-45-6789 <br />통신판매업신고 : 2024-대구중구-123 | 유료직업소개사업자등록번호 : 제2024-456-789 | 고객센터 : 123-4567</p>
+            </div>
+            <div class="copy-info">
+              <p>
+                (주)원트는 통신판매중개자이며, 통신판매의 당사자가 아닙니다. 상품, 상품정보, 거래에 관한 의무와 책임은 판매회원에게 있습니다. <br />(주)원트 사이트의 상품/판매회원/중개 서비스/거래 정보, 콘텐츠, UI 등에 대한 무단복제, 전송, 배포, 스크래핑 등의 행위는 저작권법, 콘텐츠산업 진흥법 등
+                관련법령에 의하여 엄격히 금지됩니다. [안내 보기]
+              </p>
+            </div>
+            <span>Copyright © 2024 onet Inc. All rights reserved.</span>
+          </div>
+     
+      </footer>
     </div>
-</body>
+  </body>
 </html>
