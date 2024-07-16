@@ -12,10 +12,6 @@
     }
 }
 @media screen and (max-width: 1024px) {
-  .login a {
-    font-size: 14px;
-  }
-
   .category ul li a {
     font-size: 15px;
   }
@@ -29,6 +25,12 @@
   }
   }
   @media screen and (max-width: 872px) {
-    .login a {
-
-  }
+    .login{
+      width: 290px;
+    }
+    .login a{
+      font-size:14.5px;
+    }
+    .category ul li{
+      width: 10%;
+    }
