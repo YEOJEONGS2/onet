@@ -1,4 +1,5 @@
  @charset "utf-8";
+ 
 @media screen and (max-width: 1200px) {
 .swiper-wrapper {
     width: 1200px;
@@ -10,8 +11,14 @@
     .search a{
         background-size: 95%;
     }
+    .best-list{
+      width: 95%;
+    }
 }
 @media screen and (max-width: 1024px) {
+  .category ul{
+    width: 100%;
+  }
   .category ul li a {
     font-size: 15px;
   }
@@ -23,6 +30,21 @@
   .text-box2 p{
     font-size:15.5px;
   }
+  .list-in li{
+    width: 90%;
+  }
+  .app-link li a,
+  .app-link li i{
+    font-size: 15px;
+  }
+  }
+  @media screen and (max-width: 864px) {
+    .bn-text h1{
+      font-size:28px;
+    }
+    .bn-text a{
+      font-size:27px;
+    }
   }
   @media screen and (max-width: 872px) {
     .login{
@@ -31,6 +53,39 @@
     .login a{
       font-size:14.5px;
     }
+    .category ul li a {
+      font-size: 14px;
+    }  
+    .cate li {
+      width: 140px;
+  }
+}
+  @media screen and (max-width: 810px) {
+      .bn-text h1 , .bn-text a{
+        font-size:25px;
+      }
+    }  
+  
+  @media screen and (max-width: 780px) {
     .category ul li{
-      width: 10%;
+      width:87px;
     }
+    .cs-center{
+      width:45%;
+    }
+    .app-link li{
+      width: 130px;
+    }
+    .info li{
+      font-size:14px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .bn-text h1, .bn-text a{
+      font-size:22px;
+    }
+    /* .footer-bn img{
+      margin: 0;
+      padding:35px 30px;
+    } */
+  }
